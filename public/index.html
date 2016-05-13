@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BLUEMIX APP</title>
+</head>
+<body>
+
+<form action="/submit" method="post">
+<fieldset>
+  <br><h2>Please Enter your Employee Id </h2>
+ <input type="text" name="EmpId"><br>
+<h2>CATEGORY</h2><br>
+<select name="name" id="name" multiple>
+<option placeholder="Select Option"  id="SelectOption">Select Option</option>
+<option name= "c"          value="C">C</option>
+ <option name="C++"        value="C++">C++</option>
+<option name="JAVA"        value="JAVA">JAVA</option>
+<option name="NODEJS"      value="NODEJS">NODEJS</option>
+<option name = "ANGULARJS" value="ANGULARJS">ANGULARJS</option>
+<option name = "PHP"       value="PHP">PHP</option>
+<option name="CLOUDANT"    value="CLOUDANT">CLOUDANT</option>
+</select>
+  <h2>PLEASE ENTER THE QUESTION </h2><br>
+<textarea name="question" rows="5" cols="50" id="question"></textarea>
+  <h2>PLEASE ENTER THE ANSWER <br></h2>
+<textarea name="answer" rows="5" cols="50" id="answer"></textarea>
+<br>
+<input type="submit"   value="Submit" id="myBtn"  />
+<input type="reset" value="Reset">      
+          
+         </fieldset>
+      </form>
+
+</body>
+</html>
